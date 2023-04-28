@@ -1,0 +1,5 @@
+To use our OCR without the user interface:
+1. use make to compile the project
+2. use ./main "path_to_the_image" to let the image go through all of the code
+3. you get a file named gridToSolve with the grid from the image that you can directly put in the solveur/ folder
+4. when in the solver file you just have to use ./a.out gridToSolve to get the solved grid in the file gridToSolve.result
